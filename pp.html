@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100px;
+            background-color: rgb(20, 20, 1);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 50px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+               color: brown;
+               font-size: 1.5rem;
+               
+        }
+        .left{
+            font-size: larger;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+        .leftsection{
+            
+            width: 41%;
+            font-size: 3rem;
+        }
+        .firstsection > div{
+            width: 45%;
+            align-items: center;
+        }
+        .rightsection img{
+            
+            width: 100%;
+        margin-left: 0%;}
+            span{
+                color: red;
+            }
+            
+                .resume a{
+                background-color: rgb(199, 17, 17);
+                padding: 1px 100px;
+                height: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: azure;
+                display: inline;
+                margin: 30px 0;
+                border-radius: 20px;
+                font-size: 1.5rem;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Shashank's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <LI><a href="/">SKILLS</a></LI>
+                    <LI><a href="/">RESUME</a></LI>
+                    <LI><a href="/">CONTACT ME</a></LI>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi i am <span>Shashank Shekhar</span>
+                <div>and i am a passionate web developer.</div>
+                <div class="resume">
+                <a href="Shashank's Resume (4)-2.pdf">Download CV</a></div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
